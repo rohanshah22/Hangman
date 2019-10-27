@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HANGMAN</title>
+    <script src="myCode.js"></script>
+    <link rel="stylesheet" type="text/css" href="myStyle.css">
+</head>
+<body>
+<h1>HANGMAN</h1>
+<p id = "textofstarting">Game Themes (won't affect gameplay) </p>
+<button type = "button" class="themes" id="zombie" onclick= "zombie()">zombie</button>
+<button type = "button" class="themes" id="classic" onclick= "classic()">classic</button>
+<button type = "button" class="themes" id="monster" onclick= "monster()">monster</button>
+<br>
+<button type = "button" class="playerOp" id="sPlayer" onclick= "singlePlayer()">Single Player</button>
+<button type = "button" class="playerOp1" id="2Player" onclick= "twoPlayer()">Local Two Player</button>
+<p id = "starterText">Choose a difficulty:</p>
+<button type = "button" class="Diff" id="easy" onclick= "easy()">easy</button>
+<button type = "button" class="Diff" id="medium" onclick= "medium()">medium</button>
+<button type = "button" class="Diff" id="hard" onclick= "hard()">hard</button>
+<button type = "button" class="Diff" id="extreme" onclick= "extreme()">extreme</button>
+<button type = "button" class="Diff" id="random" onclick= "rDiff()">random difficulty</button>
+<br>
+<p id = "game">Game Controls(they'll appear after you choose a difficulty)</p>
+<button type = "button" class="gameC" id="setUp" onclick= "setUp()">generate word</button>
+<button type = "button" class="gameC" id="start" onclick= "start()">guess a letter</button>
+<button type = "button" class="gameC" id="restart" onclick= "restart()">restart game</button>
+<button type = "button" class="gameC" id="theme" onclick= "changeTheme()">change theme</button>
+<p id = "display"></p>
+<p id = "category"></p>
+<p id = "display2"></p>
+<p id = "display3"></p>
+<p id = "display4"></p>
+<p id = "display6"></p>
+<p id = "display5"></p>
+<p id = "display7"></p>
+<img src="resources/stage.PNG" id="faces" width="400" height="500">
+
+</body>
+</html>
